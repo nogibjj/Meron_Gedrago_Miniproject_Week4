@@ -1,5 +1,5 @@
-black<=23.*
-click<=9.*
-pytest<=8.*
-pytest-cov<=5.*
-pylint<=3.*
+black<23
+click<9
+pytest<8
+pytest-cov<5
+pylint<=3
