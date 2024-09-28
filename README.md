@@ -1,14 +1,43 @@
-# Meron_Gedrago_miniproject1
-[![CI](https://github.com/nogibjj/Meron_Gedrago_miniproject1/actions/workflows/hello.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_miniproject1/actions/workflows/hello.yml)
+[![CI](https://github.com/nogibjj/Meron_Gedrago_Miniproject_Week4/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Meron_Gedrago_Miniproject_Week4/actions/workflows/CI.yml)
 
-Welcome to the first project for Data Engineering!
+# Meron_Gedrago_miniproject4
 
-This project aims to create a python github template that can be reused in the future and also get us to start understanding best practices in creating/sharing/replicating code. The components of this template should allow for anyone else to get this project/code and be able to reproduce it without any problem on their local computer. It contains the following element to enable that   
+## Aim of this project 
 
-* *README.md*: this is the document that you are reading right now that explains the purpose of the project and any important information to the reader or whoever wants to replicate the project 
-* *requirements.txt*: list of packages that the project uses/"requires" (as the name suggests) with the version numbers 
-* *MG_main.py*: a simple multiplication function that inputs two numbers and multiplies them!
-* *Test_MG_main.py*: a series of cases that test whether or not my MG_main code works correctly 
-* *Makefile*: series of useful commands that we want to run when we call it such as installing the required packages from the requirements document, formatting the code, running our test and other commands we would want to automate 
-* *.devcontainer*: this enables the setting up of a virtual environment that will allow the code to work on any computer and not just on the one that it was created on. This file contains the devcontainer and Dockerfile, which are long templatized codes and are changed slightly across projects
-* *CI/CD or hello.yml*: a set of instructions or automated actions that we want to be executed after a certain action e.g., when the code is pushed to github or pulled  
+This project aims to edit github actions workflows to ensure that the respository works on three different versions of python.[3.7,3.8,3.9,3.11].The main edit file for this project is the github workflow CI.yml  
+
+Please find below the verification from github that the code was run under different versions of python and passed CI/CD. 
+
+### Screenshot 1 - passes CI/CD for the four versions of python both on os and windows
+ 
+<img src="Image_1.png" alt="alt text" width="800">
+
+### Screenshot 2 - checking if the version ( python 3.7 on windows) to be tested is being run/tested during build 
+
+<img src="Image_2.png" alt="alt text" width="800">
+
+## Structure for this project 
+
+
+```
+├── .devcontainer/
+│   ├── devcontainer.json
+│   └── Dockerfile
+├── .github/
+│   └── workflows/
+│        └── lib.py
+├── .gitignore
+├── Requirements.txt
+├── Makefile
+├── README.md
+├── MG_main.py
+├── Image_1.png
+├── Image_2.png
+└── test_MG_main.py
+
+```
+
+
+## References 
+**Previous project(s)**
+- [Meron Gedrago Data Engineering mini project 1](https://github.com/nogibjj/Meron_Gedrago_miniproject1)
