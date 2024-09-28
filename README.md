@@ -10,11 +10,11 @@ Please find below the verification from github that the code was run under diffe
 
 ### Screenshot 1 - *passes CI/CD for the four versions of python both on os and windows*
 
-<img src="Image_1.png" alt="alt text" width="500" height="500">
+<img src="Image_1.png">
 
 ### Screenshot 2 - *checking if the version ( python 3.7 on windows) to be tested is being run/tested during build*
 
-<img src="Image_2.png" alt="alt text" width="500" height="500">
+<img src="Image_2.png">
 
 ## Structure for this project 
 
