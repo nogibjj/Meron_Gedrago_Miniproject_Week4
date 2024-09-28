@@ -8,13 +8,13 @@ This project aims to edit github actions workflows to ensure that the respositor
 
 Please find below the verification from github that the code was run under different versions of python and passed CI/CD. 
 
-### Screenshot 1 - passes CI/CD for the four versions of python both on os and windows
+### Screenshot 1 - *passes CI/CD for the four versions of python both on os and windows*
 
-<img src="Image_1.png" alt="alt text" width="500">
+<img src="Image_1.png" alt="alt text" width="500" height="500">
 
-### Screenshot 2 - checking if the version ( python 3.7 on windows) to be tested is being run/tested during build 
+### Screenshot 2 - *checking if the version ( python 3.7 on windows) to be tested is being run/tested during build*
 
-<img src="Image_2.png" alt="alt text" width="500">
+<img src="Image_2.png" alt="alt text" width="500" height="500">
 
 ## Structure for this project 
 
